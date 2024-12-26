@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" href="icon.jpg"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <style>
+      
+        .container{
+            height: 530px;
+            box-shadow: 25px 20px rgba(135, 189, 233, 0.363);
+        }
+        .nav-link:hover {
+          color: rgb(255, 255, 255);
+         
+        }
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: var(--scroll-padding, 85px);
+        }
+        .foot
+        {
+            height:50px;
+        }
+        #home 
+        {h3,h2,h4{
+            letter-spacing: 10px;         
+            text-shadow: 3px 2px rgb(213, 226, 230);
+            font-family: emoji;
+            font-weight:500;
+        }
+        img{
+          border: 20px outset rgba(58, 140, 234, 0.329);
+          border-right: 25px outset rgba(58, 140, 234, 0.329); ;
+          border-bottom: 25px outset rgba(58, 140, 234, 0.329);;
+        }
+      }
+        
+        #contact{
+          margin: 48px 124px 0;
+          
+        }
+        #project img{
+          border: 5px solid rgb(43, 79, 101);
+          height: 160px;
+        }
+        
+        #project img:hover{
+          transform: scale(1.03);
+        }
+        
+        #info{
+          box-shadow: 25px 20px rgba(135, 189, 233, 0.363);
+        }
+    </style>
+</head>
+<body class="bg-primary bg-gradient bg-opacity-10">
+    <nav id="navbar" class="navbar sticky-top navbar bg-primary" data-bs-theme="dark">
+        <a class="navbar-brand ms-4" href="#home">Portfolio</a>
+        <ul class="nav nav-pills ">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#project">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skill">Technical Skill</a>
+          </li><li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          
+        </ul>
+      </nav>
+      <div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" class="scrollspy" tabindex="0">
+        <div class="container w-100 p-5 text-center mt-5 bg-light bg-gradient" id="home">
+            <div class="row ">
+                <div class="col mt-5">
+                    <h3 class="mt-5 ls-3">Hi!</h3>
+                    <h2 class="mt-3">I'm Kaviyarasu</h2>
+                    <h4 class="mt-4">.Net Developer</h4>
+                </div>
+
+                <div class="col mt-3">
+                  <img src="kavi2.jpg"width="380" height="400">
+                </div>
+              </div>
+        </div>
+    
+        <div class="container w-100 p-5 text-center mt-5 bg-light bg-gradient"  id="about">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="mt-5">Carrier Objective</h3>
+                    <p class="mt-5">Looking for an entry-level position where I can apply my knowledge, learn new skills, and contribute to the  <br>growth of the team as well as my own professional development.</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="mt-5">Education</h3>
+                    <div class="row mt-5">
+                        <div class="col">
+                            <h4 class="">UG</h4>
+                            <p class="mt-4">Completed my Bsc(Information Systems) in Kongu Engineering College with 8.21 CGpa</p>
+                        </div>
+
+                        <div class="col">
+                            <h4>HSC</h4>
+                            <p class="mt-4">Completed my Hsc in Thamarai Matric Higher Secondary School with 87.8%</p>
+                        </div>
+
+                        <div class="col">
+                            <h4>SSLC</h4>
+                            <p class="mt-4">Completed my Hsc in Thamarai Matric Higher Secondary School with 92%</p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+        </div>
+     
+        <div class="container w-100 p-5 text-center mt-5 bg-light bg-gradient"  id="project">
+            <div class="row mt-3">
+                <div class="col">
+                    <h3>Projects</h3>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col">
+                    <img src="p1.png" width="300px" height="150px">
+                </div>
+                <div class="col">
+                  <img src="p2.png" width="300" height="150">
+                </div>
+                <div class="col">
+                  <img src="p4.png" width="300" height="150">
+                </div> 
+            </div>
+            <div class="row mt-5">
+                <div class="col">
+                  <img src="p3.png" width="300" height="150">
+                </div>    
+
+                <div class="col">
+                  <img src="p5.png" width="300" height="150">
+                </div>            
+
+                <div class="col">
+                  <img src="p6.png" width="300" height="150">
+                </div>    
+              </div>    
+            </div>
+        
+        <div class="container w-100 p-5 text-center mt-5 bg-light bg-gradient" id="skill">
+           <div class="row mt-3">
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col">
+                  <div class="row mt-2">
+                    <h4>Front End</h4>
+                      <div class="row mt-4">
+                        <div class="col">
+                          <img src="html.png" width="100px" height="100px">
+                        </div>
+                        <div class="col">
+                          <img src="css.png" width="100px" height="100px">
+                        </div>    
+                      </div>
+                      <div class="row mt-5">
+                        <div class="col-12 ">
+                          <img src="js.png" width="200px" height="100px">
+                        </div>       
+                      </div>      
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="row mt-2">
+                    <h4>Back End</h4>
+                      <div class="col mt-3">
+                        <img src="csharp.png" width="150px" height="100px">
+                      </div>      
+                  </div>
+                  <div class="row mt-4">
+                    <h4>Database</h4>
+                      <div class="col mt-3">
+                        <img src="sql.png" width="150px" height="100px">
+                      </div>      
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="row mt-2">
+                    <h4>FrameWork</h4>
+                      <div class="col-12 mt-4">
+                        <img src="asp.jpg" width="150px" height="100px">
+                      </div>
+                      <div class="col mt-5">
+                        <img src="boot.png" width="120px" height="100px">
+                      </div>               
+                  </div>
+                </div>               
+            </div>
+
+        </div>
+
+        <div id="contact" class="text-center mt-5 " >
+          <div class="row bg-light bg-gradient p-5" id="info" style="display: none;">
+      
+              <div class="col">
+                  <div class="row p-5">
+                      <div class="col">
+                          <img src="p ad.webp"width="40px"height="40px"><h4>Address:</h4><h5> Kodumudi, Erode</h5>
+                      </div>
+      
+                      <div class="col">
+                        <img src="p ph.png"width="40px"height="40px"><h4>Mobile:</h4><h5><a href="tel:9677966143">9677966143</a></h5>
+                      </div>
+                      
+                  </div>
+              </div>
+      
+            
+              <div class="col">
+                  <div class="row p-5">
+                      <div class="col">
+                        <img src="p ml.png"width="40px"height="40px"><h4>Email:</h4><h5><a href="mailto:kaviarasu5133@gmail.com">kaviarasu5133@gmail.com</a></h5>
+                      </div>
+      
+                      <div class="col">
+                        <img src="p ln.png"width="40px"height="40px"><h4>LinkedIn:</h4><h5><a href="" target="_blank">View Profile</a></h5>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      
+          
+          <button type="button" style="margin-top: 100px;color: white;" onclick="show()" class="btn btn-primary">Contact Me!</button>
+      </div>
+      
+      <script>
+          function show() {
+              var contact = document.getElementById('info');
+              
+              
+              if (contact.style.display === "none" || contact.style.display === "") {
+                  contact.style.display = "block"; 
+              } else {
+                  contact.style.display = "none";  
+              }
+          }
+      </script>
+      
+              
+        </div>
+
+        <footer class="foot bg-primary mt-5">
+          <p class="text-center" style="color:white;"> © 2024 All Rights Reserved</p>
+            
+        </footer>
+    
+</body>
+</html>
